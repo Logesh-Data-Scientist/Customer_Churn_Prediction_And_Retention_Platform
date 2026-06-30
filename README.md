@@ -465,7 +465,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/yourusername/customer-churn-prediction-retention-intelligence-platform.git
+git clone https:https://github.com/Logesh-Data-Scientist/RetainIQ_Predictive_Customer_Retention_Intelligence-.git
 
 Navigate to the project directory:
 
@@ -473,12 +473,13 @@ cd customer-churn-prediction-retention-intelligence-platform
 
 Install the required dependencies:
 
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 
 Run the Streamlit application:
 
 streamlit run app/app.py
-Model Performance
+
+## Model Performance
 
 The final model was selected after comparing multiple classification algorithms using standard evaluation metrics.
 
@@ -492,7 +493,7 @@ Confusion matrix evaluation
 
 The selected model demonstrated strong predictive performance while maintaining interpretability for business users.
 
-Business Impact
+## Business Impact
 
 The platform enables organizations to:
 
@@ -503,7 +504,8 @@ Increase customer lifetime value.
 Prioritize high-risk customers.
 Support executive decision-making with interactive dashboards.
 Enhance trust in machine learning predictions through explainability.
-Future Enhancements
+
+## Future Enhancements
 
 Potential improvements include:
 
@@ -521,8 +523,8 @@ License
 
 This project is released under the MIT License.
 
-Acknowledgements
-IBM Telco Customer Churn Dataset
+##Acknowledgements
+Telcom Customer Churn Dataset
 Scikit-learn
 XGBoost
 SHAP
